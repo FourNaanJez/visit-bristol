@@ -1,0 +1,99 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0 0 20px 0;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+}
+
+h4 {
+    text-decoration: underline;
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+#hero {
+    background-image:url("images/bristol.jpg");
+    background-size: cover; 
+    padding: 100px;
+    color: #212529;   
+    height: 300px;
+}
+
+#hero-h {
+    background: whitesmoke;
+    padding: 5px 10px;
+    border-radius: 100px;
+    margin: 15px 0 15px 0;
+    box-shadow: 4px 4px 4px black;
+}
+
+#activities {
+    margin-top: 50px;
+    background: linear-gradient(white, skyblue);
+}
+
+.activities-section {
+    margin: 50px 20px 0 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.image-activity {
+    border-radius: 20px;
+    height: 100px;
+    width: 200px;
+    padding: 10px;
+}
+
+#guide {
+        display: flex;
+        justify-content: space-around;
+        margin: 10px auto 5px auto;
+        width: 500px;
+        align-items: center;  
+        background: linear-gradient(white, skyblue);
+        padding: 5px;
+        border: whitesmoke solid 5px;
+        border-radius: 10px;
+}
+
+#avatar {
+    height: 150px;
+    width: 150px;
+    border: skyblue solid 6px;
+    border-radius: 10px;
+}
+
+#avatar:hover {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+button {
+    padding: 5px 10px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    background: whitesmoke;
+    border: red solid 2px;
+    border-radius: 50px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    background: red;
+    border: whitesmoke solid 2px;
+    color: whitesmoke;
+    box-shadow: black 2px 2px 2px;
+}
